@@ -65,7 +65,8 @@ The code for this project is implemented in a Colab notebook (`HepatitisPred.ipy
     ```
 
 6.  Run the cells in the notebook sequentially.
-   This notebook can also be run in a local Jupyter environment (ensure dependencies are installed).
+
+This notebook can also be run in a local Jupyter environment (ensure dependencies are installed).
 
 ## Models and Evaluation
 

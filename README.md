@@ -87,34 +87,8 @@ The Linear Regression model shows a reasonable fit on the training data but perf
 
 *   **Logistic Regression:** Used for classification. Evaluated using accuracy, precision, recall, F1-score, and confusion matrix.The Logistic Regression model achieved a test accuracy of 74.2%. The model achieved a precision of  0.93, recall of 0.98, and an F1-score of 0.96 on the test set. 
 
-The SVM model achieved the highest accuracy on the test set (77.4%), followed closely by Logistic Regression (74.2%).  However, it's important to consider other metrics such as precision, recall, and F1-score, especially for imbalanced datasets.  Linear Regression, while showing a reasonable fit on the training data, performed poorly on the test data, suggesting overfitting or that it's not a suitable model for this classification task.  Further investigation into feature engineering or trying different models might be beneficial.
+The SVM model achieved the highest accuracy on the test set (77.4%), followed closely by Logistic Regression (74.2%).  However, it's important to consider other metrics such as precision, recall, and F1-score, especially for imbalanced datasets.  Linear Regression, while showing a reasonable fit on the training data, performed poorly on the test data, suggesting overfitting or that it's not a suitable model for this classification task.  
  
-**Feature Importance (Logistic Regression):**
-
-The feature importance analysis for the Logistic Regression model identified the following as the most influential features in predicting life expectancy (in descending order of importance):
-
-    1.  `anorexia`
-    2.  `gender`
-    3.  `malaise`
-    4.  `albu` (Albumin level)
-    5.  `spiders`
-    6.  `bili` (Bilirubin level)
-    7.  `ascites`
-    8.  `fatigue`
-    9.  `varices`
-    10. `histology`
-    11. `steroid`
-    12. `antivirals`
-    13. `spleen`
-    14. `liverFirm`
-    15. `liverBig`
-    16. `age`
-    17. `protime` (Prothrombin time)
-    18. `alk` (Alkaline phosphatase level)
-    19. `sgot` (SGOT/AST level)
-
-These results suggest that the presence of anorexia, gender, and malaise are strong indicators of life expectancy in hepatitis patients, according to the logistic regression model.  Albumin and bilirubin levels, along with the presence of spiders and ascites, also play a significant role.  It's important to note that feature importance is specific to the model used and should be interpreted in the context of the model's performance.
-
 ## Dependencies
 
 Python libraries used in the project:
